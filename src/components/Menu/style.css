@@ -1,0 +1,40 @@
+.menu {
+  width: 150px;
+  background: #191718;
+  color: #aaaaaa;
+  transition: transform 0.3s;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 18.75px;
+}
+
+.menu.open {
+  transform: translateX(0);
+}
+
+button {
+  background: transparent;
+  border: none;
+  color: #fff;
+  padding: 10px;
+}
+
+ul {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+li {
+  padding: 12.2px;
+  border-bottom: 1px solid #5c5c5c;
+}
+li:hover {
+  background-color: #5c5c5c;
+  color: #fff;
+}
+@media (max-width: 768px) {
+  .menu {
+    max-width: 100%;
+  }
+}

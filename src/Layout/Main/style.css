@@ -1,0 +1,11 @@
+.main {
+  display: flex;
+  height: 100%;
+}
+.logo {
+  padding-top: 16px;
+  text-align: center;
+}
+.content {
+  flex: 1;
+}

@@ -1,0 +1,22 @@
+.about-container {
+  padding: 16px 129px 0 129px;
+}
+.about {
+  margin-top: 20px;
+  background: #efefef;
+  padding: 16px 160px;
+}
+.about h2 {
+  font-size: 18px;
+  line-height: 21.09px;
+  text-align: center;
+  font-weight: 700;
+  color: #000000;
+}
+.about p {
+  font-size: 16px;
+  line-height: 18.75px;
+  text-align: center;
+  font-weight: 400;
+  color: #000000;
+}
