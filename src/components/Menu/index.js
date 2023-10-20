@@ -11,7 +11,7 @@ function Menu() {
     return (
         <>
             <div className='menu-container'>
-                <ul className={`menu ${clicked ? 'show' : ''}`}>
+                <ul className={`menu ${clicked ? 'show' : ''}`} >
                     <li>Home</li>
                     <li>Servies</li>
                     <li>News</li>

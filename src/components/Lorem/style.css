@@ -33,3 +33,13 @@
     flex-direction: column;
   }
 }
+@media (max-width: 871px) {
+  .lorem-item p {
+    float: right;
+  }
+}
+@media (max-width: 650px) {
+  .lorem {
+    padding: 16px 16px 0 16px;
+  }
+}
