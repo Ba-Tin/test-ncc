@@ -1,3 +1,6 @@
+.menu-container {
+  position: relative;
+}
 .menu {
   width: 150px;
   background: #191718;
@@ -7,6 +10,7 @@
   font-size: 16px;
   line-height: 18.75px;
   display: block;
+  height: 100%;
 }
 
 .menu-button {
@@ -31,6 +35,22 @@ li:hover {
   background-color: #5c5c5c;
   color: #fff;
 }
+
+/* mobile */
+#mobile {
+  display: none;
+}
+.fa-times {
+  position: absolute;
+  top: 0;
+  right: 0;
+}
+#mobile i {
+  cursor: pointer;
+  color: #5c5c5c;
+  font-size: 32px;
+}
+
 @media (max-width: 1000px) {
   .menu {
     display: none;
@@ -44,5 +64,11 @@ li:hover {
     width: 130px;
     height: 52px;
     cursor: pointer;
+  }
+  #mobile {
+    display: block;
+  }
+  .menu.show {
+    display: block;
   }
 }
